@@ -9,7 +9,7 @@ let fibonacciSerise = x + y;
 document.getElementById("fn").innerHTML += (`${x} </br>`);
 
 while (fibonacciSerise < number) {
-    document.getEleme`ntById("fn").innerHTML += (`${ fibonacciSerise } </br > `);
+    document.getElementById("fn").innerHTML += (`${fibonacciSerise} </br>`);
     fibonacciSerise = x + y;
     x = y;
     y = fibonacciSerise;
